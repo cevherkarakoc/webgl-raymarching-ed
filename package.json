@@ -1,22 +1,23 @@
 {
   "name": "webgl-raymarching-ed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --out-dir ./ --no-content-hash --no-source-maps"
   },
   "author": "cevherkarakoc",
   "license": "MIT",
-  "dependencies": {
-    "prismjs": "^1.20.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-glc": "0.0.2",
-    "react-simple-code-editor": "^0.11.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "prismjs": "^1.20.0",
+    "react-glc": "0.0.2",
+    "react-simple-code-editor": "^0.11.0",
+    "glslify-bundle": "^5.1.1",
+    "glslify-deps": "^1.3.1",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
