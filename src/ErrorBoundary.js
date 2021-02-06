@@ -21,10 +21,7 @@ export default class ErrorBoundary extends React.Component {
 
   render() {
     if (this.state.hasError) {
-      return <div style={{
-        width: 400,
-        height: 400,
-        minWidth: 400,
+      return <div className='error-box' style={{
         marginBottom: 4,
         display: "flex",
         alignItems: "center",

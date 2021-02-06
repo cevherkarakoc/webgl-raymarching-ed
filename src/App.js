@@ -2,6 +2,8 @@ import React from 'react';
 
 import { LiveEditor } from './LiveEditor';
 
+import './index.css'
+
 const defaultSdf = `float sdf(vec3 point) {
   return length(point) - 1.;
 }`;

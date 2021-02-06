@@ -1,0 +1,28 @@
+:root {
+    --size: 180px;
+}
+
+canvas, .error-box {
+    width: var(--size);
+    height: var(--size);
+    min-width: var(--size);
+}
+
+@media (min-width: 768px) { 
+    :root {
+        --size: 220px;
+    }
+ }
+
+@media (min-width: 992px) {
+    :root {
+        --size: 300px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    :root {
+        --size: 400px;
+    }
+ }
+ 
